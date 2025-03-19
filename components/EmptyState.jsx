@@ -37,6 +37,7 @@ export default function EmptyState() {
 
             }}>{ConstantString.MedicationSubText}
             \</Text>
+            
             <TouchableOpacity style={{
                 backgroundColor: Colors.Primary,
                 padding: 15,
