@@ -45,7 +45,7 @@ import {
   
     const saveMedication = async () => {
       const docId = new Date().toString();
-      const user = await getLocalStorage("userDetails");
+      const user = await getLocalStorage("userDetail");
       if (
         !(
           formData?.name ||
