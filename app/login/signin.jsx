@@ -24,7 +24,7 @@ export default function Sign() {
                 const user = userCredential.user;
                 console.log(user);
                 await setLocalStorage('userDetail', user);
-                router.replace('(tabs)');
+                router.push('(tabs)');
                 // ...
             })
             .catch((error) => {

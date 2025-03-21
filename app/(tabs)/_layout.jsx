@@ -12,9 +12,9 @@ export default function TabLayout() {
   const getUser = async () => {
     const userInfo = await getLocalStorage("userDetails");
 
-    if (!userInfo) {
-      router.replace("/login");
-    }
+    // if (userInfo===null) {
+    //   router.replace("/login");
+    // }
   };
 
   useEffect(() => {
